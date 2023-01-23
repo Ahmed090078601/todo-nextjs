@@ -19,6 +19,7 @@ export default function Home() {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Awesome Todo App</h2>
             <AddNewTodo/>
+            {/* @ts-expect-error Server Component */}
             <TodoList/>        
       </section>
             </Layout>
